@@ -1,0 +1,24 @@
+# Ignore database files
+*.sqlite3
+
+# Ignore migrations (optional)
+*/migrations/*
+
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+.venv/
+venv/
+word/
+
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore static and media files (if generated dynamically)
+/staticfiles/
+/media/
